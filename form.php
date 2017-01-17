@@ -155,10 +155,10 @@ echo "<br>";
 echo "Comment: $comment";
 echo "<br>";
 if($_POST["password"]!=$_POST["confirm_password"]){
-  echo "two passwords do not match";
+  echo '<b style="color:#f05f40";>two passwords do not match</b>';
 }
 else{
-  echo "password matched and submitted";
+  echo '<b style="color:#06fc02">password matched and submitted</b>';
 }
 }
 ?> 
